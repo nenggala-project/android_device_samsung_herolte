@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 Nenggala Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,11 +24,11 @@ $(call inherit-product, device/samsung/herolte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nenggala/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := herolte
-PRODUCT_NAME := lineage_herolte
+PRODUCT_NAME := nenggala_herolte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G930F
 PRODUCT_MANUFACTURER := samsung
