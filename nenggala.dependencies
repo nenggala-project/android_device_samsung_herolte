@@ -2,5 +2,9 @@
     {
         "repository": "android_device_samsung_universal8890-common",
         "target_path": "device/samsung/universal8890-common"
+    },
+    {
+        "repository": "vendor_samsung_herolte",
+        "target_path": "vendor/samsung/herolte"
     }
 ]
